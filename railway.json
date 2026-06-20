@@ -1,12 +1,11 @@
 {
   "$schema": "https://railway.app/railway.schema.json",
   "build": {
-    "builder": "PYTHON"
+    "builder": "DOCKERFILE"
   },
   "deploy": {
     "numReplicas": 1,
     "restartPolicyType": "ON_FAILURE",
-    "restartPolicyMaxRetries": 10,
-    "startCommand": "python shtpass_railway_app.py"
+    "restartPolicyMaxRetries": 10
   }
 }

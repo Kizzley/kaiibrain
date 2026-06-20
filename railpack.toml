@@ -2,7 +2,7 @@
   version = 2
 
 [railpack.build]
-  builder = "python"
+  builder = "dockerfile"
 
 [railpack.run]
   command = "python shtpass_railway_app.py"

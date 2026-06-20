@@ -1,0 +1,8 @@
+[railpack]
+  version = 2
+
+[railpack.build]
+  builder = "python"
+
+[railpack.run]
+  command = "python shtpass_railway_app.py"
